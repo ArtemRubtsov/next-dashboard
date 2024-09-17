@@ -9,7 +9,8 @@ import {
 } from "../../lib/data";
 import { Suspense } from "react";
 import { CardsSkeleton, LatestInvoicesSkeleton, RevenueChartSkeleton } from "@/app/ui/skeletons";
-import CardWrapper from "../cardWrapper";
+import CardWrapper from "../CardWrapper";
+
 
 export default async function Page() {
   // const revenue = await fetchRevenue();
